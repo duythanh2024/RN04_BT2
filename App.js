@@ -39,27 +39,28 @@ const styles = StyleSheet.create({
    
   },
   box1:{
-    backgroundColor:'red',
+    backgroundColor:'#52BE80',
     flex:1,
     borderRadius:20,
-    marginVertical:10,
-    padding:30,
+    marginVertical:20
+  
     
   },
   box1child:{
     flex:1,
-    backgroundColor:'yellow',
+    backgroundColor:'#DAF7A6',
     borderRadius:20,
-    marginVertical:20,
+    marginVertical:30,
+    marginHorizontal:20
   },
 
   box2:{
-    backgroundColor:'blue',
+    backgroundColor:'#85C1E9',
     flexDirection:'column',
     flex:1,
     borderRadius:20,
     marginVertical:10,
-    padding:30,
+    padding:10,
   },
   box2child:{
     flex:1,
@@ -69,9 +70,9 @@ const styles = StyleSheet.create({
   },
   box2child1:{
     flex:1,
-    backgroundColor:'gray',
+    backgroundColor:'#2E86C1',
     borderRadius:20,
-    marginVertical:10,
+    marginVertical:15,
     marginHorizontal:10,
   },
 });
